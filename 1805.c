@@ -1,12 +1,14 @@
 #include<stdio.h>
 int main()
 {
-    long long int a,b,d,sum=0;
-    //float f;
+   long long int a,b,n,s;
+
     scanf("%lld %lld",&a,&b);
-    d=(b-a)+1;
-    //f=d/2;
-    sum=(a+b)*((float)d/2);
-    printf("%lld\n",sum);
+
+         n=(b-a)+1;
+         s=(n*(2*a+(n-1))/2);
+         printf("%lld\n",s);
+
+
     return 0;
 }
